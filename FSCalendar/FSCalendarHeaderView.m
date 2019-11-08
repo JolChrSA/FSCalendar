@@ -191,6 +191,7 @@
     }
     text = usesUpperCase ? text.uppercaseString : text;
     cell.titleLabel.text = text;
+    cell.titleLabel.text = text.localizedCapitalizedString;
     [cell setNeedsLayout];
 }
 
